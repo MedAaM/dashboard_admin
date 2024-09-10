@@ -34,3 +34,15 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+---- git add .:
+git add . stages all the changes (new files, modified files, and deleted files) in the current directory and its subdirectories, preparing them to be committed to the Git repository. Here's a breakdown:
+
+git add: This command stages changes for the next commit.
+. (dot): Refers to the current directory and all of its subdirectories.
+
+---- git commit -m "<message>":
+ creates a commit with a message directly provided from the command line.
+
+git commit: This command records the staged changes (from git add) into the repository's history, creating a new commit.
